@@ -16,14 +16,14 @@ const documents: DocumentItem[] = [
     id: 'candies',
     title: 'Прайс',
     description: '',
-    archivePath: '/kontarev-cookie-clean/archives/price.pdf',
+    archivePath: '/kontarev-cookie-2/archives/price.pdf',
     fileName: 'price.pdf'
   },
   {
     id: 'glazing',
     title: 'Каталог',
     description: '',
-    archivePath: '/kontarev-cookie-clean/archives/catalog.pdf',
+    archivePath: '/kontarev-cookie-2/archives/catalog.pdf',
     fileName: 'catalog.pdf'
   }
   // Надо сделать другие пути к pdf. Разобраться с шириной дивов, заменить название вкладки.
