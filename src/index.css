@@ -1,9 +1,18 @@
 :root {
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    sans-serif;
+
   line-height: 1.5;
   font-weight: 400;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -15,12 +24,14 @@ body {
 
 body {
   margin: 0;
-  background-color: #fff2e5;
-  background-image: url('/background.webp');
+  min-width: 320px;
+  min-height: 100vh;
+
+  background-color: #fff6ef;
+
+  background-image: url('/background.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  min-width: 320px;
-  min-height: 100vh;
 }

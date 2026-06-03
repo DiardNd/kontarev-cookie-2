@@ -4,14 +4,22 @@ function Footer() {
       <div className="footer-inner">
         <p className="footer-title">Контакты</p>
         <div className="footer-contacts">
-          <a href="tel:+79991234567">Телефон: +7 (999) 123-45-67</a>
-          <a href="https://t.me/kontarevcookie" target="_blank" rel="noreferrer">
-            Telegram: @kontarevcookie
+          <a
+            href="https://maps.google.com/?q=г. Азов ул. Красногоровская 4"
+            target="_blank"
+            rel="noopener noreferrer">
+            Адрес: г. Азов ул. Красногоровская 4,
           </a>
-          <a href="mailto:hello@kontarevcookie.ru">Email: hello@kontarevcookie.ru</a>
-          <a href="https://instagram.com/kontarevcookie" target="_blank" rel="noreferrer">
-            Instagram: @kontarevcookie
+
+          <a
+            href="https://maps.google.com/?q=с. Пешково ул. Строителей 12а"
+            target="_blank"
+            rel="noopener noreferrer">
+            с. Пешково ул. Строителей 12а
           </a>
+
+          <a href="tel:+7 (86342) 6-59-49">Телефон: +7 (86342) 6-59-49</a>
+          <a href="mailto:Aksenov.uspex@yandex.ru">Email: Aksenov.uspex@yandex.ru</a>
         </div>
       </div>
     </footer>
